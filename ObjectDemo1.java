@@ -1,0 +1,28 @@
+
+public class ObjectDemo1 
+{  int a = 10;
+   boolean b = true;
+   static int  c = 20;
+  
+
+	public static void main(String[] args)
+	{
+		System.out.println(c);
+		
+		// System.out.println(a);
+		//System.out.println(b);
+		
+		new ObjectDemo1();
+		
+	//	 System.out.println(a); // Cannot make a static reference to the non-static field a
+   //   System.out.println(b); // Cannot make a static reference to the non-static field b
+		
+		
+		
+		
+		
+	
+
+	}
+
+}
